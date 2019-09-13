@@ -47,6 +47,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 * Melhores resultados usando como base o DNA do paciente
 
+* O status atuais dos testes estão [aqui](https://spectrum.ieee.org/biomedical/diagnostics/how-ibm-watson-overpromised-and-underdelivered-on-ai-health-care) 
+
 
 ## Discussões
 
@@ -59,6 +61,20 @@ knitr::opts_chunk$set(echo = FALSE)
 * Expectativa criada pelo marketing  
 
 
+## Artigos visitados
+
+https://www.computerworld.com/article/3321138/did-ibm-put-too-much-stock-in-watson-health-too-soon.html  
+
+https://spectrum.ieee.org/biomedical/diagnostics/how-ibm-watson-overpromised-and-underdelivered-on-ai-health-care 
+
+https://becominghuman.ai/the-shaming-of-watson-3d0672d59f1 
+
+https://www.bloomberg.com/opinion/articles/2018-08-24/ibm-s-watson-failed-against-cancer-but-a-i-still-has-promise 
+
+https://www.economist.com/business/2017/10/21/ibm-lags-in-cloud-computing-and-ai-can-techs-great-survivor-recover 
+
+https://www.economist.com/babbage/2013/02/14/doctor-watson
+  
 
 
 
