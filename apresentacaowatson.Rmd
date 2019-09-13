@@ -1,0 +1,77 @@
+---
+title: "Watson na Saúde"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Pretensão da IBM
+
+* Após IBM Watson venceu Jeopardy
+
+![](imagens/jeopardy.jpg)
+
+
+* A IBM resolveu investir na medicina por IA em 2014
+
+
+## Projetos de IA na Medicina com o Watson
+
+* Principal projeto: ajudar na escoklha do tratamentp
+
+* Dados
+
+  + Prontuário do Paciente
+
+  + Literatura Médica
+
+* Metodologia
+
+  + Aprendizado estatístico
+
+  + Natural Language Processing
+
+## Resultados
+
+* Resultados por enquanto
+
+  * Em alguns lugares, foi descontinuado
+
+  * Em alguns lugares, é usado para testes
+
+  * Em alguns lugares, foi acusado de tomar decisões erradas
+
+* Dificuldade de interpretar textos
+
+* Melhores resultados usando como base o DNA do paciente
+
+
+## Discussões
+
+* Trade-off lançar logo x lançar maduro
+
+* Tolerância para erros de IA menor que erros humanos?
+
+* Ambiente Kind x Wicked
+
+* Expectativa criada pelo marketing  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
