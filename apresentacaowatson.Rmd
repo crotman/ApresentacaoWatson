@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Projetos de IA na Medicina com o Watson
 
-* Principal projeto: ajudar na escoklha do tratamentp
+* Principal projeto: ajudar na escoklha do tratamento (Watson for Oncology)
 
 * Dados
 
@@ -45,7 +45,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 * Dificuldade de interpretar textos
 
-* Melhores resultados usando como base o DNA do paciente
+* Melhores resultados usando como base o DNA do paciente (Watson for Genomics)
 
 * O status atuais dos testes estão [aqui](https://spectrum.ieee.org/biomedical/diagnostics/how-ibm-watson-overpromised-and-underdelivered-on-ai-health-care) 
 
