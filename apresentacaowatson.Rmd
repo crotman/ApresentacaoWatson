@@ -1,80 +1,81 @@
 ---
 title: "Watson na Saúde"
 output: slidy_presentation
+bibliography: bibliography.bib
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Pretensão da IBM
+## Contexto
 
-* Após IBM Watson venceu Jeopardy
+* IBM Watson venceu Jeopardy em 2011
 
-![](imagens/jeopardy.jpg)
+![](imagens/jeopardy.jpg){width=40%}
 
+
+* Usando Processamento de Linguagem Natural PROFUNDA (com contexto) e acesso a conteúdo da Internet [@high2012era]
 
 * A IBM resolveu investir na medicina por IA em 2014
 
+## Problema
 
-## Projetos de IA na Medicina com o Watson
 
-* Principal projeto: ajudar na escoklha do tratamento (Watson for Oncology)
+* A escolha de tratamento de câncer é complexa [@Puglielli2018]:
+  - Efetividade depende das características do paciente e da doença
+  - É muito difícil saber se a escolha foi correta
+  - A literatura é muito vasta
 
-* Dados
+* Quanto à literatura [@Chen2016]:
+  - 200.000 experimentos com 21.000 novos medicamentos ativos
+  - Existem 24 milhões de artigos de medicina publicados. 1,8 milhão é publicado anualmente
+  - O número de novos artigos científicos publicados dobra a cada 9 anos
 
-  + Prontuário do Paciente
 
-  + Literatura Médica
+## Teoria
 
-* Metodologia
+Usando Processamento de Linguagem Natural Profunda e até mesmo reconhecimento diagramas químicos, é possível chegar a possíveis tratamentos, que podem ser ranqueados quanto à sua efetividade para um paciente específico [@Chen2016], de forma mais eficiente do que uma junta médica.
 
-  + Aprendizado estatístico
 
-  + Natural Language Processing
+![](imagens/teoria1.png){width=60%}
 
-## Resultados
+![](imagens/teoria2.png){width=60%}
 
-* Resultados por enquanto
 
-  * Em alguns lugares, foi descontinuado
+## Experimento
 
-  * Em alguns lugares, é usado para testes
+* IBM Watson está em experiência em vários lugares, mas em nenhum ele está "em produção" ainda.
 
-  * Em alguns lugares, foi acusado de tomar decisões erradas
+* Os artigos avaliam a taxa de concordância entre o IBM Watson e uma junta médica
 
-* Dificuldade de interpretar textos
+  - A maioria dos artigos aponta uma taxa de concordância alta, chegando a 93% [@10.1093/annonc/mdx781] [@10.1093/annonc/mdy297.031]
 
-* Melhores resultados usando como base o DNA do paciente (Watson for Genomics)
+  - Alguns artigos mostram taxas variáveis por tipo de câncer, e concluem que Watson ainda não está maduro para substituir médicos humanos [@lee2018assessing] [@zhou2019concordance]
+  
 
-* O status atuais dos testes estão [aqui](https://spectrum.ieee.org/biomedical/diagnostics/how-ibm-watson-overpromised-and-underdelivered-on-ai-health-care) 
+* Todos os artigos jornalísticos encontrados fazem críticas ao IBM Watson, relatando que em nenhum caso ele está em produção e que em alguns casos ele gerou decisões de tratamento injustificáveis e claramente erradas.
+  - O mais completo deles [@strickland2019ibm] mostra uma lista de lugares onde o Watson foi testado. Em alguns ele foi descontinuado e em outros continua em testes, mas em apenas em um ele é usado de verdade.
+  - Em alguns lugares houve resultados melhores com o Watson for Genomics, que usa informação estruturada (genoma) ao invés dos prontuários. Há dificuldade em se entender os dados dos prontuários dos pacientes.
+
+
 
 
 ## Discussões
 
-* Trade-off lançar logo x lançar maduro
+* Ambiente Kind x Wicked
+  - Gary Klein sempre estudou como a intuição de especialistas melhora com o tempo
+  - Daniel Kahneman sempre executou experimentos onde as intuições se mostravam falhas (mesmo para especialistas)
+  - Em um artigo em conjunto [@kahneman2009conditions], eles concluem que não há discordância: o tipo de ambiente onde se dá a decisão que faz o uso da intuição ser mais difícil. As definições de ambientes Kind e Wicked vêm de um livro de Hogarth [@hogarth2001educating].
+
+* Questões comerciais. Trade-off lançar logo x lançar maduro.
+  - A IBM saiu ganhando?
+  - Entrar numa empreitada dessas é arriscado. Como financiar? Governo?
 
 * Tolerância para erros de IA menor que erros humanos?
-
-* Ambiente Kind x Wicked
-
-* Expectativa criada pelo marketing  
-
-
-## Artigos visitados
-
-https://www.computerworld.com/article/3321138/did-ibm-put-too-much-stock-in-watson-health-too-soon.html  
-
-https://spectrum.ieee.org/biomedical/diagnostics/how-ibm-watson-overpromised-and-underdelivered-on-ai-health-care 
-
-https://becominghuman.ai/the-shaming-of-watson-3d0672d59f1 
-
-https://www.bloomberg.com/opinion/articles/2018-08-24/ibm-s-watson-failed-against-cancer-but-a-i-still-has-promise 
-
-https://www.economist.com/business/2017/10/21/ibm-lags-in-cloud-computing-and-ai-can-techs-great-survivor-recover 
-
-https://www.economist.com/babbage/2013/02/14/doctor-watson
-  
+  - Por que aceitamos tantas mortes por motoristas humanos mas nos escandalizamos com uma morte por um carro autônomo?
+  - Quem deveria assumir a responsabilidade?
+  - O racional por trás das decisões por IA é menos transparente. Como melhorar isso?
 
 
 
@@ -83,9 +84,7 @@ https://www.economist.com/babbage/2013/02/14/doctor-watson
 
 
 
-
-
-
+## Referências
 
 
 
